@@ -1,1 +1,111 @@
 @import 'variables';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* home */
+.card-body {
+    margin-bottom: 40px;
+}
+
+.head_item {
+    margin-bottom: 30px;
+}
+
+.last_item {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-self: anchor-center;
+}
+
+/* courses/show */
+.container-box {
+    margin: 0 70px;
+}
+
+.check-icon {
+  color: orange;
+  margin-right: 8px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.video-box {
+  color: white;
+  text-align: center;
+}
+
+.video-box img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.video_box {
+    border-radius: 16px;
+    min-width: -webkit-fill-available;
+    height: 232px;
+}
+
+
+.free-text {
+  font-size: 28px;
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.btn-primary,
+.btn-danger,
+.btn-secondary,
+.btn-success,
+.btn-warning,
+.btn-info,
+.btn-light,
+.btn-dark,
+.btn-outline-primary,
+.btn-outline-danger,
+.btn-outline-secondary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-info,
+.btn-outline-light,
+.btn-outline-dark {
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+
+.course-info {
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.course-info i {
+  margin-right: 8px;
+  color: #888;
+}
+
+/* /me */
+.CountDisplay {
+  background-color: #000;
+  color: #fff;
+  border-radius: 100%;
+  padding: 0 7px;
+}
+
+.form-check-input {
+  margin-top: 0.5rem;
+}
+
+.custom-select {
+  width: auto;
+}
+
+.btn-sizing {
+  font-size: 12px;
+  padding: 6px 18px;
+}

@@ -1,0 +1,124 @@
+<div class="container-fluid mt-5">
+    <div class="container-box">
+        <div class="row">
+      <!-- Left content -->
+      <div class="col-8">
+        <h2><strong>{{ course.name }}</strong></h2>
+        <p>{{ course.description }}</p>
+
+        <h5><strong>
+          Bạn sẽ học được gì?
+        </strong></h5>
+        <div class="row">
+          <div class="col-6">
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách xây dựng giao diện web với HTML, CSS
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách đặt tên class CSS theo chuẩn BEM
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Làm chủ Flexbox khi dựng bố cục website
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách tự tạo động lực cho bản thân
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Học được cách làm UI chỉnh chu, kỹ tính
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách phân tích giao diện website
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách làm giao diện web responsive
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Sở hữu 2 giao diện web khi học xong khóa học
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Biết cách tự học những kiến thức mới
+            </div>
+            <div class="feature-item">
+              <span class="check-icon">✔</span> 
+              Nhận chứng chỉ khóa học do F8 cấp
+            </div>
+          </div>
+        </div>
+
+        <h5 class="mt-4">
+          <strong>
+            Nội dung khóa học
+          </strong>
+        </h5>
+        <p><strong>13</strong> chương • <strong>171</strong> bài học • Thời lượng <strong>31 giờ 20 phút</strong></p>
+      </div>
+
+      <!-- Right content -->
+      <div class="col-4">
+        <div class="video-box">
+          <iframe class="video_box" src="https://www.youtube.com/embed/{{ course.videoId }}?si=P7MIRWR8fB4h6DwG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>
+            Xem giới thiệu khóa học
+          </p>
+        </div>
+
+        <div class="d-flex align-items-center flex-column bd-highlight">
+            <p class="free-text mt-3">
+              Miễn phí
+            </p>
+            <button class="btn btn-outline-primary mb-2">
+              Đăng ký học
+            </button>
+            <div class="align-items-left">
+              <div class="course-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer" viewBox="0 0 16 16">
+                  <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2M3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.39.39 0 0 0-.029-.518z"/>
+                  <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.95 11.95 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0"/>
+                </svg>
+                <div class="ml-2">
+                  Trình độ cơ bản
+                </div>
+              </div>
+              <div class="course-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+                  <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"/>
+                  <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"/>
+                </svg>
+                <div class="ml-2">
+                  Tổng số 171 bài học
+                </div>
+              </div>
+              <div class="course-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                </svg>
+                <div class="ml-2">
+                  Thời lượng 31 giờ 20 phút
+                </div>
+              </div>
+              <div class="course-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+                  <path d="M2 6h10v4H2z"/>
+                  <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                </svg>
+                <div class="ml-2">
+                  Học mọi lúc, mọi nơi
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>

@@ -69,7 +69,7 @@ app.set('views', path.join(__dirname, 'resources', 'views'))
 //Routes Init
 route(app)
 
-
+// Localhost
 app.listen(port, () => {
   console.log(`App listening on port http://localhost:${port}`)
 })
